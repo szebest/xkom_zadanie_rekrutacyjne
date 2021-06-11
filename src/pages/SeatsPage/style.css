@@ -1,0 +1,33 @@
+body {
+    overflow-x: hidden;
+}
+
+.seats {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 5px 40px;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+}
+
+.information div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.information div p {
+    margin: 15px 50px 0px;
+    font-size: 28px;
+}
+
+@media (max-width: 1450px)
+{
+    .information div {
+        flex-direction: column;
+    }
+}
