@@ -1,3 +1,8 @@
+To run this project, first launch the json server - go to the zadanie_rekrutacyjne_serwer directory and type npm run api.
+After that, on another terminal instance in the base directory type npm start.
+The default frontend is located at the localhost at port 3000.
+The default json backend serwer is located at the localhost at port 4000.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
