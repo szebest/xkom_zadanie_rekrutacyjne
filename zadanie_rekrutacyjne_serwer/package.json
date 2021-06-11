@@ -1,0 +1,19 @@
+{
+  "name": "zadanie_rekrutacyjne",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "npx json-server --watch db.json --port 4000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/xkom/zadanie_rekrutacyjne.git"
+  },
+  "author": "",
+  "license": "",
+  "homepage": "https://bitbucket.org/xkom/zadanie_rekrutacyjne#readme",
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  }
+}
